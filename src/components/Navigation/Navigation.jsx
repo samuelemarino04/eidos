@@ -18,28 +18,28 @@ function Navigation() {
 
           <nav className={`nav ${menuOpen ? "open" : ""}`}>
             <a
-              href="#features"
+              href="#chisiamo"
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >
               Chi siamo
             </a>
             <a
-              href="#about"
+              href="#cosafacciamo"
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >
               Cosa Facciamo
             </a>
             <a
-              href="#why"
+              href="#perche"
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >
               Perché noi
             </a>
             <a
-              href="#how"
+              href="#come"
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >

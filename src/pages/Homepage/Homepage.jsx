@@ -1,5 +1,4 @@
 import "./Homepage.css";
-import { Button } from "react-bootstrap";
 
 const HomePage = () => {
   return (
@@ -18,36 +17,30 @@ const HomePage = () => {
                   Progettiamo documenti aziendali chiari, leggibili e belli —
                   anche per chi è piccolo ma lavora in grande. Contratti,
                   policy, comunicazioni: li rendiamo comprensibili, utili e
-                  professionali. Perché ogni parola conta.
+                  professionali.
+                  <span className="hero-span">Perché ogni parola conta.</span>
                 </p>
               </div>
             </div>
 
             {/* Right Column - Image/Visual */}
             <div className="hero-image">
-              <div className="image-container">
-                <div className="app-screenshot">
-                  <img
-                    src="public\photos\Eidoslogo1.jpg"
-                    alt="App Screenshot"
-                    className="screenshot-img"
-                  />
-                </div>
-
-                {/* Floating elements */}
-                <div className="floating-icon floating-icon-1"></div>
-                <div className="floating-icon floating-icon-2"></div>
+              <div className="app-screenshot">
+                <img
+                  src="public\photos\Eidoslogo1.jpg"
+                  alt="App Screenshot"
+                  className="screenshot-img"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="features" className="features">
+      <section id="chisiamo" className="features">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Why Choose Our App?</h2>
+            <h2 className="section-title">Chi siamo</h2>
             <p className="section-description">
               Discover the features that make us the preferred choice for
               thousands of users worldwide.
@@ -59,7 +52,7 @@ const HomePage = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="about">
+      <section id="cosafacciamo" className="about">
         <div className="container">
           <div className="about-content">
             <h2 className="section-title">About Our Mission</h2>
@@ -84,22 +77,6 @@ const HomePage = () => {
                 - Sarah Johnson, Product Manager
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <div className="cta-content">
-            <h2 className="cta-title">Ready to Get Started?</h2>
-            <p className="cta-description">
-              Join thousands of users who are already transforming their
-              workflow. Start your free trial today and see the difference.
-            </p>
-            <Button size="lg" className="cta-button">
-              Start Free Trial
-            </Button>
           </div>
         </div>
       </section>

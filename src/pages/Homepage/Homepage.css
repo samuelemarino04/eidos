@@ -3,27 +3,10 @@
   background: linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%);
 }
 
-/* Header */
-.header {
-  border-bottom: 1px solid #e2e8f0;
-  background: #272757;
-  backdrop-filter: blur(8px);
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 0;
 }
 
 .hero {
@@ -68,80 +51,39 @@
   line-height: 1.6;
 }
 
+.hero-span {
+  color: #a48712;
+  display: block;
+}
+
 .hero-buttons {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
 }
 
-.primary-btn {
-  background-color: #2563eb;
-  color: white;
-  padding: 12px 32px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.primary-btn:hover {
-  background-color: #1d4ed8;
-}
-
-.secondary-btn {
-  padding: 12px 32px;
-}
-
-.btn-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.stats {
-  display: flex;
-  gap: 32px;
-  padding-top: 32px;
-  border-top: 1px solid #e2e8f0;
-  flex-wrap: wrap;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 30px;
-  font-weight: bold;
-  color: #0f172a;
-}
-
-.stat-label {
-  color: #64748b;
-}
-
 /* Hero Image */
 .hero-image {
-  position: relative;
-  animation: fadeIn 0.8s ease-out;
+  width: 100%;
 }
 
 .image-container {
   position: relative;
-  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
-  border-radius: 16px;
+  border-radius: 64px;
   padding: 32px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .app-screenshot {
   background: white;
   border-radius: 12px;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .screenshot-img {
   width: 100%;
-  height: 320px;
+  height: 100%;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -150,24 +92,6 @@
   border-radius: 50%;
   padding: 12px;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-}
-
-.floating-icon-1 {
-  background-color: #fbbf24;
-  top: -16px;
-  right: -16px;
-}
-
-.floating-icon-2 {
-  background-color: #34d399;
-  bottom: -16px;
-  left: -16px;
-}
-
-.floating-icon .icon {
-  width: 24px;
-  height: 24px;
-  color: #1f2937;
 }
 
 /* Features Section */
