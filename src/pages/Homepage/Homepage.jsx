@@ -12,39 +12,14 @@ const HomePage = () => {
             <div className="hero-text">
               <div className="hero-content">
                 <h1 className="hero-title">
-                  Your Amazing App
-                  <span className="hero-title-accent">Starts Here</span>
+                  <span className="hero-title-accent">Eidos Project</span>
                 </h1>
                 <p className="hero-description">
-                  Transform your workflow with our innovative solution. Built
-                  for modern teams who demand excellence and efficiency in
-                  everything they do.
+                  Progettiamo documenti aziendali chiari, leggibili e belli —
+                  anche per chi è piccolo ma lavora in grande. Contratti,
+                  policy, comunicazioni: li rendiamo comprensibili, utili e
+                  professionali. Perché ogni parola conta.
                 </p>
-              </div>
-
-              <div className="hero-buttons">
-                <Button size="lg" className="primary-btn">
-                  Get Started Free
-                </Button>
-                <Button variant="outline" size="lg" className="secondary-btn">
-                  Watch Demo
-                </Button>
-              </div>
-
-              {/* Stats */}
-              <div className="stats">
-                <div className="stat">
-                  <div className="stat-number">10K+</div>
-                  <div className="stat-label">Happy Users</div>
-                </div>
-                <div className="stat">
-                  <div className="stat-number">99.9%</div>
-                  <div className="stat-label">Uptime</div>
-                </div>
-                <div className="stat">
-                  <div className="stat-number">24/7</div>
-                  <div className="stat-label">Support</div>
-                </div>
               </div>
             </div>
 
@@ -53,7 +28,7 @@ const HomePage = () => {
               <div className="image-container">
                 <div className="app-screenshot">
                   <img
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop"
+                    src="public\photos\Eidoslogo1.jpg"
                     alt="App Screenshot"
                     className="screenshot-img"
                   />

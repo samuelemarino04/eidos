@@ -6,7 +6,7 @@
 /* Header */
 .header {
   border-bottom: 1px solid #e2e8f0;
-  background: rgba(255, 255, 255, 0.8);
+  background: #272757;
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
@@ -24,12 +24,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px 0;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #0f172a;
 }
 
 .hero {
@@ -64,7 +58,7 @@
 }
 
 .hero-title-accent {
-  color: #2563eb;
+  color: #a48712;
   display: block;
 }
 
