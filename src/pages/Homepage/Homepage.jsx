@@ -35,7 +35,7 @@ const HomePage = () => {
       </section>
 
       {/* Chi Siamo Section */}
-      <section className="section section-primary">
+      <section id="chisiamo" className="section section-primary">
         <div className="container max-w-4xl">
           <div className="section-content">
             <h2 className="section-title">Chi Siamo</h2>
@@ -56,7 +56,7 @@ const HomePage = () => {
       </section>
 
       {/* Cosa Facciamo Section */}
-      <section className="section section-background">
+      <section id="cosafacciamo" className="section section-background">
         <div className="container max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="section-title">Cosa Facciamo</h2>
