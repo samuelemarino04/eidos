@@ -32,7 +32,7 @@ function Navigation() {
               Cosa Facciamo
             </a>
             <a
-              href="#perche"
+              href="#why"
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >
