@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <div className="footer-logo">YourApp</div>
+            <div className="footer-logo">Eidos</div>
             <p className="footer-brand-description">
               Empowering teams to achieve more through innovative technology and
               exceptional user experience.

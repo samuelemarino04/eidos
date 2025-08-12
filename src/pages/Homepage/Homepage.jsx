@@ -82,14 +82,14 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="service-card-upload">
-                <label className="service-card-label">
-                  Carica il tuo documento (PDF)
-                </label>
-                <input
-                  type="file"
-                  accept=".pdf"
-                  className="service-card-input"
-                />
+                <a
+                  href="\public\Rifatto per leggere.pdf"
+                  download
+                  className="service-card-download"
+                  style={{ marginTop: "8px", display: "inline-block" }}
+                >
+                  Scarica esempio in PDF
+                </a>
               </div>
             </div>
 
@@ -114,14 +114,14 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="service-card-upload">
-                <label className="service-card-label">
-                  Carica documentazione esistente (PDF)
-                </label>
-                <input
-                  type="file"
-                  accept=".pdf"
-                  className="service-card-input"
-                />
+                <a
+                  href="\public\Start Kit.pdf"
+                  download
+                  className="service-card-download"
+                  style={{ marginTop: "8px", display: "inline-block" }}
+                >
+                  Scarica esempio in PDF
+                </a>
               </div>
             </div>
 
@@ -142,14 +142,14 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="service-card-upload">
-                <label className="service-card-label">
-                  Carica documento da analizzare (PDF)
-                </label>
-                <input
-                  type="file"
-                  accept=".pdf"
-                  className="service-card-input"
-                />
+                <a
+                  href="\public\Kit check - mini audit dei testi.pdf"
+                  download
+                  className="service-card-download"
+                  style={{ marginTop: "8px", display: "inline-block" }}
+                >
+                  Scarica esempio in PDF
+                </a>
               </div>
             </div>
 
@@ -170,14 +170,14 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="service-card-upload">
-                <label className="service-card-label">
-                  Carica contenuto da impaginare (PDF)
-                </label>
-                <input
-                  type="file"
-                  accept=".pdf"
-                  className="service-card-input"
-                />
+                <a
+                  href="\public\Vestiamo i tuoi testi.pdf"
+                  download
+                  className="service-card-download"
+                  style={{ marginTop: "8px", display: "inline-block" }}
+                >
+                  Scarica esempio in PDF
+                </a>
               </div>
             </div>
 
@@ -201,14 +201,14 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="service-card-upload">
-                <label className="service-card-label">
-                  Carica esempi di documentazione aziendale (PDF)
-                </label>
-                <input
-                  type="file"
-                  accept=".pdf"
-                  className="service-card-input"
-                />
+                <a
+                  href="\public\Doc Template Kit.pdf"
+                  download
+                  className="service-card-download"
+                  style={{ marginTop: "8px", display: "inline-block" }}
+                >
+                  Scarica esempio in PDF
+                </a>
               </div>
             </div>
           </div>
@@ -326,26 +326,46 @@ const HomePage = () => {
 
             <div className="contact-content">
               {/* Form di contatto */}
-              <form className="contact-form">
+              <form
+                className="contact-form"
+                action="https://formspree.io/f/xvgqlrdy"
+                method="POST"
+              >
                 <div className="form-group">
                   <label className="form-label">Nome*</label>
-                  <input type="text" className="form-input" required />
+                  <input
+                    type="text"
+                    name="nome"
+                    className="form-input"
+                    required
+                  />
                 </div>
 
                 <div className="form-group">
                   <label className="form-label">Email*</label>
-                  <input type="email" className="form-input" required />
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-input"
+                    required
+                  />
                 </div>
 
                 <div className="form-group">
                   <label className="form-label">Oggetto*</label>
-                  <input type="text" className="form-input" required />
+                  <input
+                    type="text"
+                    name="oggetto"
+                    className="form-input"
+                    required
+                  />
                 </div>
 
                 <div className="form-group">
                   <label className="form-label">Messaggio*</label>
                   <textarea
                     className="form-textarea"
+                    name="messaggio"
                     rows={5}
                     required
                     placeholder="Raccontaci di che tipo di documento hai bisogno o qual è la tua esigenza..."
