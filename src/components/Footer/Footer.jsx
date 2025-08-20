@@ -12,42 +12,18 @@ const Footer = () => {
               exceptional user experience.
             </p>
           </div>
+
           <div className="footer-column">
-            <h4 className="footer-title">Product</h4>
+            <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
               <li>
                 <a href="#" className="footer-link">
-                  Features
+                  Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#" className="footer-link">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  API
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-column">
-            <h4 className="footer-title">Company</h4>
-            <ul className="footer-links">
-              <li>
-                <a href="#" className="footer-link">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Careers
+                  Cookie Policy
                 </a>
               </li>
             </ul>
@@ -60,21 +36,11 @@ const Footer = () => {
                   Help Center
                 </a>
               </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Privacy
-                </a>
-              </li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 YourApp. All rights reserved.</p>
+          <p>&copy; 2025 Eidos. All rights reserved.</p>
         </div>
       </div>
     </footer>

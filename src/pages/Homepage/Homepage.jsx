@@ -324,7 +324,7 @@ const HomePage = () => {
               servizi? Scrivici o seguici sui social.
             </p>
 
-            <div className="contact-content">
+            <div id="contact" className="contact-content">
               {/* Form di contatto */}
               <form
                 className="contact-form"
@@ -382,7 +382,7 @@ const HomePage = () => {
                 <h3 className="social-title">Seguici sui Social</h3>
                 <div className="social-buttons">
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/company/eidos-design-agency/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-button linkedin"
@@ -399,7 +399,7 @@ const HomePage = () => {
                   </a>
 
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/eidos_designstudio?igsh=OTdxY2thengwMm40&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-button instagram"
