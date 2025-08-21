@@ -315,7 +315,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="section section-primary">
+      <section className="section section-primary2">
         <div className="container max-w-4xl">
           <div className="section-content">
             <h2 className="section-title">Contatti</h2>

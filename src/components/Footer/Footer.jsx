@@ -17,12 +17,22 @@ const Footer = () => {
             <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
               <li>
-                <a href="#" className="footer-link">
+                <a
+                  href="public/Privacy policy.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link"
+                >
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a
+                  href="public/Cookie Policy.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link"
+                >
                   Cookie Policy
                 </a>
               </li>
@@ -32,7 +42,10 @@ const Footer = () => {
             <h4 className="footer-title">Support</h4>
             <ul className="footer-links">
               <li>
-                <a href="#" className="footer-link">
+                <a
+                  href="mailto:eidosdesignagency@gmail.com"
+                  className="footer-link"
+                >
                   Help Center
                 </a>
               </li>

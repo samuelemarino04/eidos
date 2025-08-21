@@ -50,10 +50,10 @@
 
 /* Hero Section */
 .hero-section {
-  background-image: url("public/photos/Background_2.jpg");
-  background-size: cover; /* l’immagine copre tutta la sezione */
-  background-position: center; /* l’immagine è centrata */
-  background-repeat: no-repeat; /* evita ripetizioni */
+  background-image: url("public/photos/Background_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 100vh;
   display: flex;
@@ -222,7 +222,12 @@
 
 /* Sections */
 .section {
+  background-image: url("public/photos/Background_4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 3rem 0;
+  border: none;
 }
 
 @media (min-width: 640px) {
@@ -238,12 +243,18 @@
 }
 
 .section-primary {
-  background: linear-gradient(
-    135deg,
-    hsl(220, 91%, 13%),
-    hsl(220 91% 18%) 50%,
-    hsl(217, 91%, 18%)
-  );
+  background-image: url("public/photos/Background_7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: hsl(47, 100%, 38%);
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.section-primary2 {
+  background: #0f172a;
   color: hsl(0 0% 100%);
   position: relative;
   overflow: hidden;
@@ -266,8 +277,11 @@
 }
 
 .section-gold {
-  background: linear-gradient(135deg, hsl(47, 100%, 38%), hsl(45 85% 45%));
-  color: hsl(0 0% 100%);
+  background-image: url("public/photos/Background_7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: hsl(47, 100%, 38%);
   position: relative;
   overflow: hidden;
 }
