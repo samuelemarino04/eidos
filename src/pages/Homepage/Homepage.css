@@ -1053,3 +1053,63 @@
 .social-button svg {
   flex-shrink: 0;
 }
+
+/* ===== GRID BASE ===== */
+.services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important; /* desktop */
+  gap: 24px !important;
+  justify-items: stretch !important;
+  align-items: stretch !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Card: occupa tutta la colonna e non si restringe */
+.service-card {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important; /* neutralizza vecchi layout a float */
+  box-sizing: border-box;
+  justify-self: stretch !important; /* evita “appiccicato a sinistra” */
+}
+
+/* Solo da tablet in su permettiamo gli span */
+@media (min-width: 768px) {
+  .service-card.col-span-2 {
+    grid-column: span 2;
+  }
+  .service-card.col-span-template {
+    grid-column: span 2;
+  }
+}
+
+/* ===== BREAKPOINTS ===== */
+/* Tablet */
+@media (max-width: 991px) {
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Tutte le card, incluse quelle “speciali”, diventano full-width */
+  .service-card,
+  .service-card.col-span-2,
+  .service-card.col-span-template {
+    grid-column: 1 / -1 !important;
+    justify-self: stretch !important;
+  }
+
+  /* Evita shrink dei contenuti interni */
+  .service-card > * {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
