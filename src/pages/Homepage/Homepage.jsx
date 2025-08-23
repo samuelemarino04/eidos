@@ -83,7 +83,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="\public\Rifatto per leggere.pdf"
+                  href="/public\Rifatto per leggere.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
@@ -115,7 +115,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="\public\Start Kit.pdf"
+                  href="/Start Kit.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
@@ -143,7 +143,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="\public\Kit check - mini audit dei testi.pdf"
+                  href="/Kit check - mini audit dei testi.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
@@ -171,7 +171,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="\public\Vestiamo i tuoi testi.pdf"
+                  href="/Vestiamo i tuoi testi.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
@@ -202,7 +202,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="\public\Doc Template Kit.pdf"
+                  href="/Doc Template Kit.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
