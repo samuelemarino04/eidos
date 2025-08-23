@@ -1,6 +1,12 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "npm run build"   # comando di build
+  publish = "dist"            # cartella di output di Vite
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "18"         # forza Node 18 (compatibile con Vite 7 e React 19)
+
+# Gestione routing SPA (alternative al file _redirects in public)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
