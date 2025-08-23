@@ -25,10 +25,7 @@ const HomePage = () => {
 
             {/* Right Column - Image/Visual */}
             <div className="hero-image">
-              <img
-                src="public/photos/EidosLogo1.jpg"
-                alt="Eidos Project Logo"
-              />
+              <img src="/photos/EidosLogo1.jpg" alt="Eidos Project Logo" />
             </div>
           </div>
         </div>
@@ -83,7 +80,7 @@ const HomePage = () => {
               </div>
               <div className="service-card-upload">
                 <a
-                  href="/public\Rifatto per leggere.pdf"
+                  href="/Rifatto per leggere.pdf"
                   download
                   className="service-card-download"
                   style={{ marginTop: "8px", display: "inline-block" }}
