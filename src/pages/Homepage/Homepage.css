@@ -50,7 +50,7 @@
 
 /* Hero Section */
 .hero-section {
-  background-image: url("/photos/Background_5.jpg");
+  background-image: url("../photos/Background_5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@
 
 /* Sections */
 .section {
-  background-image: url("/photos/Background_4.jpg");
+  background-image: url("../photos/Background_4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@
 }
 
 .section-primary {
-  background-image: url("/photos/Background_7.jpg");
+  background-image: url("../photos/Background_7.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,7 +277,7 @@
 }
 
 .section-gold {
-  background-image: url("/photos/Background_7.jpg");
+  background-image: url("../photos/Background_7.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
