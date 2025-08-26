@@ -134,7 +134,7 @@ const HomePage = () => {
                   linguaggio, struttura e impatto grafico.
                 </p>
                 <p className="service-card-text-highlight">
-                  Una mappa chiara dei punti critici — per migliorarlo da solo o
+                  Una mappa chiara dei punti critici per migliorarlo da solo o
                   affidarlo a noi.
                 </p>
               </div>
@@ -162,8 +162,8 @@ const HomePage = () => {
                 </p>
                 <p className="service-card-text-highlight">
                   Noi lo impaginiamo e lo trasformiamo in un documento
-                  professionale e piacevole da usare — che comunica
-                  autorevolezza, cura e chiarezza visiva.
+                  professionale e piacevole da usare che comunica autorevolezza,
+                  cura e chiarezza visiva.
                 </p>
               </div>
               <div className="service-card-upload">
