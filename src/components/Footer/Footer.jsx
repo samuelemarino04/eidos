@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li>
                 <a
-                  href="public/Privacy policy.pdf"
+                  href="/Privacy policy.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-link"
@@ -28,7 +28,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="public/Cookie Policy.pdf"
+                  href="/Cookie Policy.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-link"
